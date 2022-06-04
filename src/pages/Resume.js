@@ -21,8 +21,8 @@ const useStyles = makeStyles((theme) =>
       },
     },
     skillPara: {
-      padding: "10px",
-      fontSize: "22px",
+      padding: "2px",
+      fontSize: "18px",
       textAlign: "center",
       "&:hover": {
         color: theme.palette.common.yellow,
@@ -51,23 +51,23 @@ const Resume = () => {
                 Front-end Proficiency
               </Typography>
               <br />
-              <Typography className={classes.skillPara} variant="p">
+              <Typography className={classes.skillPara} variant="subtitle1">
                 HTML
               </Typography>
               <br />
-              <Typography className={classes.skillPara} variant="p">
+              <Typography className={classes.skillPara} variant="subtitle1">
                 CSS
               </Typography>
               <br />
-              <Typography className={classes.skillPara} variant="p">
+              <Typography className={classes.skillPara} variant="subtitle1">
                 bootstrap
               </Typography>
               <br />
-              <Typography className={classes.skillPara} variant="p">
+              <Typography className={classes.skillPara} variant="subtitle1">
                 Javascript
               </Typography>
               <br />
-              <Typography className={classes.skillPara} variant="p">
+              <Typography className={classes.skillPara} variant="subtitle1">
                 React
               </Typography>
             </MainCard>
@@ -79,23 +79,23 @@ const Resume = () => {
                 Back-end Proficiency
               </Typography>
               <br />
-              <Typography className={classes.skillPara} variant="p">
+              <Typography className={classes.skillPara} variant="subtitle1">
                 Node js
               </Typography>
               <br />
-              <Typography className={classes.skillPara} variant="p">
+              <Typography className={classes.skillPara} variant="subtitle1">
                 PHP
               </Typography>
               <br />
-              <Typography className={classes.skillPara} variant="p">
+              <Typography className={classes.skillPara} variant="subtitle1">
                 Graphyql
               </Typography>
               <br />
-              <Typography className={classes.skillPara} variant="p">
+              <Typography className={classes.skillPara} variant="subtitle1">
                 Javascript
               </Typography>
               <br />
-              <Typography className={classes.skillPara} variant="p">
+              <Typography className={classes.skillPara} variant="subtitle1">
                 Express
               </Typography>
             </MainCard>

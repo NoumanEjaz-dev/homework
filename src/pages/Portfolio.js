@@ -26,14 +26,14 @@ const RewardPage = () => {
       </div> */}
 
       <div className={classes.root}>
-        <Grid container>
-          <Grid container item xs={12} sm={6} lg={4} spacing={3}>
+        <Grid container spacing={3}>
+          <Grid item xs={12} sm={6} lg={4}>
             <MediaCard image={Img1} />
           </Grid>
-          <Grid container item xs={12} sm={6} lg={4} spacing={3}>
+          <Grid item xs={12} sm={6} lg={4}>
             <MediaCard image={Img2} />
           </Grid>
-          <Grid container xs={12} sm={6} lg={4} spacing={3}>
+          <Grid item xs={12} sm={6} lg={4}>
             <MediaCard image={Img3} />
           </Grid>
         </Grid>

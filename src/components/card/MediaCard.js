@@ -43,7 +43,7 @@ export default function MediaCard({ image }) {
           <Typography variant="h5" component="h2" className={classes.heading}>
             Techyme.org
           </Typography>
-          <Typography variant="body2" component="p">
+          <Typography variant="body2">
             Techyme website is a website for teaching programming to new users
             This is was the project that I have done for my one of client.
           </Typography>
